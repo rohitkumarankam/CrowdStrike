@@ -1,9 +1,11 @@
 # CrowdStrike
 CrowdStrike BSOD Fix
 
+use this short link for opening the repo https://rka.li/cs
+
 Steps to Fix:
 1. boot into safe mode with networking enabled.
-2. execute this command 
+2. execute this command
 
 ```powershell
 Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/rohitkumarankam/CrowdStrike/main/CrowdStrike.ps1" -UseBasicParsing).Content
